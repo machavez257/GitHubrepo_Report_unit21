@@ -1,16 +1,33 @@
-# This is a sample Python script.
+# Activity report of apache/spark repository
+#
+# This program collects data on the following metrics:
+#   commits
+#   issue creation
+#   pull requests
+#   branches
+#   contributions
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#TODO: add set df
+
+#TODO: add github credentials
+github_username = "machavez257"
+github_token = "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"
+
+#TODO: create API session. provide input parameters
+
+#TODO: add function to convert all object columns to strings, in order to store them efficiently into db
+
+#TODO: data extraction function -
+#   Note: Github API call returns only 30 results. must figure out how to increase number of returned results
+#   @params: owner, repo name
+#   @returns a list of dictionaries
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+#TODO: add function that generates pandas df from list of dictionaries - Convert JSON to table
+# @params owner, repo name
+# @returns dataframe
 
+#TODO: invoke function & add
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#TODO: save table to csv file
+#   df.to_csv('')
