@@ -147,4 +147,5 @@ def generate_repo_data(repo, owner, api):
     pulls.to_csv('pulls.csv')
     print('PULL REQUEST DATA COMPLETED')
 
-generate_repo_data('spark', 'apache', github_api)
+#generate_repo_data('spark', 'apache', github_api)
+
