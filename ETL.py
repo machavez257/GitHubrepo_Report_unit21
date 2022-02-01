@@ -22,7 +22,6 @@ github_token = "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"
 #   @params: owner, repo name
 #   @returns a list of dictionaries
 
-
 #TODO: add function that generates pandas df from list of dictionaries - Convert JSON to table
 # @params owner, repo name
 # @returns dataframe
